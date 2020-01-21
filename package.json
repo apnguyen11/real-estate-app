@@ -1,0 +1,22 @@
+{
+  "name": "real-estate-app",
+  "version": "1.0.0",
+  "description": "Real estate app for forclosed businesses",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+
+  },
+  "author": "Andy Nguyen, Jerome Dela Cruz, Sue Park, Alvin Ng",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^5.0.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
