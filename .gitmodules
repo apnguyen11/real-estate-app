@@ -1,0 +1,3 @@
+[submodule "real-estate-client"]
+	path = real-estate-client
+	url = https://github.com/apnguyen11/real-estate-client.git
