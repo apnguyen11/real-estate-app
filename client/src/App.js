@@ -1,20 +1,20 @@
 import React, {Component} from 'react';
-import logo from './logo.svg';
+import { Router, Route } from "react-router-dom";
+import Facebook from './components/facebooklogin/facebooklogin'
 import './App.css';
 import Businesses from './components/businesses/businesses'
+import Login from './components/login/login'
 
  class App extends Component {
 
   render(){
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-  
-          <Businesses/>
-       
-        </header>
+      <div>
+
+       <h1>login with facebook</h1>
+       <Facebook />
       </div>
+
     );
   }
 
